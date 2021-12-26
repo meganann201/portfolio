@@ -25,13 +25,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0; 
-    background-image: url("images/hero-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-    opacity: .7;
+    opacity: .9;
   }
 
   header h1 {
@@ -72,3 +66,8 @@
     border-radius: 15px;
     text-shadow: none;
   }
+
+.hero {
+    background-image: url("images/palm-tree.jpg");
+    height: 50vh;
+}
