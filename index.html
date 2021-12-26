@@ -3,29 +3,39 @@
     <head>
         <meta charset="utf-8">
         <title>Megan's Portfolio</title>
-       
+        <link rel="stylesheet" href="assets/style.css">
     </head>
 
     <body>
         <header>
-            <h1>Megan Campbell</h1>
-            <div class="nav">
-                <a>About Me</a>
-                <a>Projects</a>
-                <a>Contact</a>
-              </div>
+            <h1>
+                <a href="/">Megan Campbell</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                 </ul>
+            </nav>
         </header>
 
         <section>
             <img src="assets/images/palm-tree.jpg" alt="palm trees">
         </section>
 
-        <section>
+        <section id="about-me">
             <h2>About Me</h2>
             <p>Hello! My name is Megan Campbell and I'm currently learning front end web development through the University of Miami.</p>
         </section>
 
-        <section>
+        <section id="projects">
             <h2>Projects</h2>
             <div class="main-project">
                 <div class="project-info">
@@ -59,7 +69,7 @@
             </div>
         </section>
 
-    <section>
+    <section id="contact">
         <h2>Contact Me</h2>
         <p>You can reach me at:</p>
         <ul>
