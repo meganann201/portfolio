@@ -100,6 +100,10 @@
   .bio h1 {
     margin-bottom: var(--bottom-margin);
   }
+
+  .bio-title {
+    color: var(--tertiary-color);
+  }
   
   .bio p {
     line-height: var(--line-height);
@@ -114,9 +118,80 @@
   .more-about h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
+    color: var(--tertiary-color);
+    font-size: 28px;
   }
   
   .more-about p {
     line-height: var(--line-height);
     padding: 0.4rem;
+  }
+
+  .projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+  }
+  
+  .project-pic {
+    width: 65%;
+    height: 60%;
+  }
+  
+  .projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 28px;
+    color: var(--tertiary-color);
+
+  }
+
+  hr {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .project-container {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+  }
+
+  .project-container:nth-child(1) {
+    width: 75%;
+    height: 50%
+  }
+
+  .project-container p {
+    padding: 0.4rem;
+  }
+ 
+
+  .project-title {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-details {
+    margin-bottom: var(--bottom-margin);
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .project-link {
+    color: var(--tertiary-color);
+    font-weight: bold;
   }
