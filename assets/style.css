@@ -260,3 +260,11 @@
     cursor: pointer;
     color: var(--primary-color);
   }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+  }
