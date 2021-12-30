@@ -113,6 +113,7 @@
   .more-about {
     background-color: rgba(143,193,227, 0.5);
     padding: 1rem 6rem;
+    border-radius: 25px;
   }
   
   .more-about h2 {
@@ -205,6 +206,7 @@
   .contact h2 {
     text-align: center;
     margin-bottom: var(--bottom-margin-2);
+    color: var(--tertiary-color);
   }
   
   .contact-form-container {
@@ -268,3 +270,29 @@
     right: 1%;
     bottom: 50%;
   }
+
+  footer {
+    background: var(--secondary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3.0%;
+    opacity: .8;
+    color: white;
+  }
+
+  .footer-number{
+    margin-top: 10px;
+  }
+
+  .footer-number a {
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+
+  
