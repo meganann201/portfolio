@@ -1,5 +1,4 @@
-
-
+ /* variables used throughout project */
 :root {
     --primary-color: #F7F9FB;
     --secondary-color: #687864;
@@ -256,6 +255,7 @@
     font-weight: var(--bold-font);
   }
 
+  /* changes the color of the email form submit button on hover */
   .submit-btn:hover {
     background-color: var(--tertiary-color);
     border: 2px solid var(--primary-color);
@@ -293,6 +293,7 @@
   }
 
 
+  /* media queries */
   @media screen and (max-width: 720px) {
     nav {
       padding: 1.5rem 1rem;
@@ -326,10 +327,6 @@
       text-align: justify;
     }
 
-    .icon {
-      width: 5.875rem;
-      height: 5.25rem;
-    }
 
     .projects-container {
       flex-direction: column;
